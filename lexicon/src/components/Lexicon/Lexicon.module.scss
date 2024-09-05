@@ -1,0 +1,33 @@
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+    background: rgb(200, 200, 200);
+}
+
+
+
+
+
+
+
+
+//Phone
+@media (max-width: 600px) {  
+    /* Your CSS styles for small devices */
+  }
+  
+ //Tablet/Ipad
+  @media (min-width: 600px) and (max-width: 900px) {  
+    /* Your CSS styles for medium devices */
+  }
+  
+ //Tablet/iPhone Landscape view
+  @media (min-width: 900px) {  
+    /* Your CSS styles for large devices */
+  }
+  
