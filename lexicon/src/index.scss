@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Karma:wght@300;400;500;600;700&family=Marck+Script&display=swap');
+
+$darker-color: #5A5A5A;
+$lighter-color: #F4F4F4;
+$greener-color: #57842A;
+$olive-color: #42651E;
+$greyer-color: #D9D9D9;
+$purewhite-color: #FFFFFF;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+    background: rgb(200, 200, 200);
+}
+
+
+
+
+
+
+
+
+
+//Phone
+@media (max-width: 600px) {  
+    /* Your CSS styles for small devices */
+  }
+  
+ //Tablet/Ipad
+  @media (min-width: 600px) and (max-width: 900px) {  
+    /* Your CSS styles for medium devices */
+  }
+  
+ //Tablet/iPhone Landscape view
+  @media (min-width: 900px) {  
+    /* Your CSS styles for large devices */
+  }
+  
