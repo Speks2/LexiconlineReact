@@ -18,7 +18,9 @@ export function Header() {
          <a href="#api" className={styles.navItem}>API</a>
         </nav>
         </div>
+        <img src="/src/assets/images/headerImage.jpg" alt="headerImage"/>
       </header>
+     
        </>
 
 
