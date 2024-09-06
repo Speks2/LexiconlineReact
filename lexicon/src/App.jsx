@@ -1,6 +1,6 @@
 import { Lexicon } from "./components/Lexicon/Lexicon"
 import { Header }  from "./components/Header/Header"
-import { Main } from "./components/Main/Main";
+import { AboutText } from "./components/Main/AboutText";
 import { Footer } from "./components/Footer/Footer";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
     <Header />
     <Lexicon />
-    <Main/>
+    <AboutText/>
     <Footer />
     
     
