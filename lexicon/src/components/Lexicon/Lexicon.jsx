@@ -4,7 +4,6 @@ export function Lexicon() {
   return (
     <>
       
-      <h1>Lexicon</h1>
     </>
   );
 }

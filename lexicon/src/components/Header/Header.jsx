@@ -11,6 +11,7 @@ export function Header() {
        <>
        <header className={styles.Header}>
         <h1>Lexiconline</h1>
+        <container><h2>About Lexiconline</h2></container>
         <div className={styles.Navbar}>
         <nav>
          <a href="#home" className={styles.navItem}>HOME</a>

@@ -2,9 +2,20 @@
 
 
 .Main {
-    p {
-        background: V.$purewhite-color;
-    }
-    
+    background: V.$purewhite-color;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 3rem;
+    margin-top: 10rem;
 
+    p {
+        
+        font-family: "Karma";
+        padding: 5rem;
+    }
+    h2 {
+
+        font-family: "Karla";
+    }
+  
 }
