@@ -10,6 +10,9 @@ export function Header() {
 
        <>
        <header className={styles.Header}>
+        <div className={styles.Svg}>
+        <img src="/src/assets/images/Logo.svg" alt="headerSvg" />
+        </div>
         <h1>Lexiconline</h1>
         <container><h2>About Lexiconline</h2></container>
         <div className={styles.Navbar}>
