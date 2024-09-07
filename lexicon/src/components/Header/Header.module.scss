@@ -3,30 +3,30 @@
 
 .Header {
     .Svg {
-        height: 10rem;
-        width: 10rem;
-        border-radius: 5rem;
+        height: 9rem;
+        width: 11rem;
+        border-radius: 100%;
         background-color: V.$greener-color;
         position: absolute;
-        z-index: 1;
         margin-left: 45%;
+        align-content: center;
         
         img {
-            height: 8vh;
-            width: 8vw;
-           margin-top: 5rem;
-           margin-left: 1.2rem;
-            
+            width: 33%; 
+            height: 40%; 
+            object-fit: cover; 
+            margin-left: 3.6rem;
+            margin-top: 3rem;
          }
     }
     h1 {
         font-family: "Marck Script", cursive;
-        font-size: 6rem;
+        font-size: 8.5rem;
         position: absolute;
-        margin-top: 15rem;
-        margin-left: 40%;
+        margin-top: 11rem;
+        margin-left: 31%;
         color: V.$purewhite-color;
-        
+        font-weight: 300;
     }
     .Navbar {
         background-color: V.$greener-color;
@@ -40,27 +40,29 @@
             font-family: "Karla";
 
             &:hover {
-                color: V.$olive-color;
+                color: V.$darker-color;
             }
             
         }
     }
     img {
-        width: 100%;
-        height: 60vh;
-        position: auto;
-        z-index: -2;
+        width: 100%; 
+        height: 25rem; 
+        object-fit: cover; 
+        filter: brightness(70%);
+        z-index: -3;
+        position: relative;
     }
     container {
         background-color: V.$lighter-color;
         position: absolute;
-        margin-top: 25rem;
+        margin-top: 27.5rem;
         margin-left: 12rem;
         border-radius: 8px;
         width: 75%;
         height: 25%;
+        z-index: 1;
         
-
         h2 {
            font-family: "Karla";
            text-align: center;
