@@ -4,18 +4,18 @@
 .Main {
     background: V.$purewhite-color;
     border-radius: 8px;
-    padding: 1rem;
-    margin: 3rem;
-    margin-top: 10rem;
+    padding: 2rem; 
+    margin: 4rem; 
+    margin-top: 10rem; 
 
     p {
-        
-        font-family: "Karma";
-        padding: 5rem;
+        font-family: "Karla"; 
+        margin-bottom: 3rem; 
+        line-height: 1.7; 
     }
-    h2 {
 
+    h2 {
         font-family: "Karla";
+        margin-bottom: 1.5rem; 
     }
-  
 }

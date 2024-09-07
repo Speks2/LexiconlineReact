@@ -7,23 +7,39 @@
     bottom: 0;
     width: 100%;
     background-color: V.$greener-color;
-    text-align: center;
-    padding: 20px 0;
     
     container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 0.5rem;
-        padding: 0.5rem;
         div {
-           
          p {
-            font-family: "Karla";
+            font-family: "Karma";
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(4, 1fr);
             padding: 1.5rem;
-            
+            color: V.$purewhite-color;
+            margin: 0;
          }   
+         h3 {
+            font-family: "Marck Script", cursive;
+            margin-left: 257%;
+            margin-top: -4rem;
+            font-size: 1.5rem;
+            color: V.$purewhite-color;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            
+         }
+         
         }
+       img {
+        position: absolute;
+        margin-left: 83%;
+        height: 8vh;
+        width: 8vw;
+        margin-top: 3%;
+       }
+             
+            
     }
 }

@@ -22,10 +22,17 @@ export function AboutText(){
 
        <h2>Why Lexiconline?</h2>
 
-       Completely Free: Lexiconline is a passion project created with the belief that knowledge should be accessible to everyone. There are no fees, no subscriptions—just pure learning, always at your fingertips.
-       Easy to Use: Our platform is designed with you in mind. Whether you’re searching for a word’s meaning, synonyms, or usage examples, you’ll find everything you need in one place, with a simple, intuitive interface.
-       Explore and Learn: Every word you look up is an opportunity to learn something new. We encourage you to explore the richness of language, expand your vocabulary, and discover the joy that comes from understanding and using new words.
-
+         <ul>
+            <li>
+            <strong>Completely Free:</strong> Lexiconline is a passion project created with the belief that knowledge should be accessible to everyone. There are no fees, no subscriptions—just pure learning, always at your fingertips.
+            </li>
+            <li>
+            <strong>Easy to Use:</strong> Our platform is designed with you in mind. Whether you’re searching for a word’s meaning, synonyms, or usage examples, you’ll find everything you need in one place, with a simple, intuitive interface.
+            </li>
+            <li>
+            <strong>Explore and Learn:</strong> Every word you look up is an opportunity to learn something new. We encourage you to explore the richness of language, expand your vocabulary, and discover the joy that comes from understanding and using new words.
+           </li>
+         </ul>
 
        <h2>A special thanks</h2>
 

@@ -21,9 +21,9 @@ return (
             <p>With special thanks to https://dictionaryapi.dev/ For the awesome API</p>
         </div>
         <div>
-            <img src="/src/assets/images/Logo.svg" alt="logoSvg" />
-            <p>Lexicon</p>
+            <h3>Lexicon</h3>
         </div>
+        <img src="/src/assets/images/Logo.svg" alt="logoSvg" />
     </container>
 </footer>
 </>
