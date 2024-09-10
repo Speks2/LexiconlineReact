@@ -3,35 +3,29 @@
 
 .Header {
     .Svg {
-        height: 9rem;
-        width: 11rem;
+        height: 0;
+        width: 0;
         border-radius: 100%;
         background-color: V.$greener-color;
-        position: absolute;
-        margin-left: 45%;
         align-content: center;
-        
-        img {
-            width: 33%; 
-            height: 40%; 
-            object-fit: cover; 
-            margin-left: 3.6rem;
-            margin-top: 3rem;
-         }
+        justify-items: center;
     }
     h1 {
         font-family: "Marck Script", cursive;
         font-size: 8.5rem;
-        position: absolute;
-        margin-top: 11rem;
-        margin-left: 31%;
         color: V.$purewhite-color;
         font-weight: 300;
+        z-index: 1;
+        justify-content: center;
+        justify-items: center;
+        position: absolute;
     }
     .Navbar {
         background-color: V.$greener-color;
-        z-index: 1;
         padding: 1.5rem;
+        display: grid;
+        align-items: center;
+        justify-content: center;
         a {
             flex-direction: row;
             margin: 1rem;
@@ -51,25 +45,22 @@
         object-fit: cover; 
         filter: brightness(70%);
         z-index: -3;
-        position: relative;
+       
     }
-    container {
+      .About {
         background-color: V.$lighter-color;
-        position: absolute;
-        margin-top: 27.5rem;
-        margin-left: 12rem;
         border-radius: 8px;
-        width: 75%;
-        height: 25%;
+        transform: translateY(500px);
+        text-align: center;
         z-index: 1;
+        position: relative;
+       
         
         h2 {
            font-family: "Karla";
            text-align: center;
            margin-top: 5rem;
-           color: V.$darker-color;
-         
-            
+           color: V.$darker-color; 
         }
     }
 }
